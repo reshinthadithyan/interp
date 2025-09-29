@@ -1,0 +1,14 @@
+[project]
+name = "interp"
+version = "0.1.0"
+description = "Interp"
+authors = [
+    { name="Reshinth", email="reshinth@gmail.com" }
+]
+license = { file="LICENSE" }
+dependencies = [
+  "torch",
+  "numpy",
+  "tensorboard",
+  "triton"
+]
